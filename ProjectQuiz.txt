@@ -12,7 +12,8 @@ Answer the following questions for Lesson 7 Assignment
 Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
-
+If you don't put it first, the jQuery library will load as regular javascript and all
+the jQuery code will not work like it's supposed to.
 
 
 
@@ -20,6 +21,9 @@ Why should you ensure that the script element that links to the jQuery library f
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
+jQuery can be slow.  It is also very simple code and using it in a file can become confusing
+and you can lose your code in a jumbled mess.
+There are different versions of jQuery out there and some don't work well together.  
 
 
 
@@ -30,7 +34,7 @@ Why should you avoid including jQuery in a project if you don't need it?
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
-
+Every jQuery statement begins with a $
 
 
 
@@ -39,3 +43,9 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+A CDN is a distribution system that gives content to users very efficiently and at a high quality.
+One advantage is that even if you are far away from your server CDNs have data centers that help with 
+faster downloads.  Another advantage is CDNs reduce the load time of a website which is very important 
+to any user because a slow page can be unattractive.  A huge benefit of using a CDN is a more secure network.
+Security is important for any server and the users that work with it.  The last benefit I chose is the ability to 
+attract more customers.  Customers are more satisfied by how efficient the page works making others want to use it as well.  
